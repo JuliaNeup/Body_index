@@ -1,5 +1,5 @@
 public class BmiService {
-    public int calculate(float p_mass, float p_height){
-        return (int) Math.floor((p_mass/(p_height*p_height))*10000);
+    public int calculate(float parMass, float parHeight) {
+        return (int) Math.floor((parMass / (parHeight * parHeight)) * 10000);
     }
 }
